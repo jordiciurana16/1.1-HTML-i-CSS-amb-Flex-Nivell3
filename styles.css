@@ -126,6 +126,9 @@ aside * {
 }
 
 @media (max-width: 768px) {
+  * {
+    background-color: rgb(158, 158, 158);
+  }
   main {
     flex-direction: column;
   }
@@ -140,6 +143,9 @@ aside * {
 }
 
 @media (max-width: 500px) {
+  * {
+    background-color: rgb(66, 66, 66);
+  }
   article {
     width: 100%;
   }
